@@ -1,12 +1,57 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body{
+    background: rgb(170, 131, 131);
+}
+.navbar{
+    background: rgb(79, 145, 145);
+}
+.container{
+    background: blueviolet;
+    margin:auto;
+    width: 1000px; 
+}
+.jumbotron{
+    background: rgb(165, 106, 165);
+}
+.row{
+    background: navy;
+    display: flex;
+    border: 1px dashed white;
+}
+.card2{
+    background: rgb(206, 119, 119);
+    display: flex;
+}
+.card3{
+    background: rgb(175, 175, 115);
+    display: flex;
+}
+.card4{
+    background: rgb(177, 144, 84);
+    display: flex
+}
+.card5{
+    background: gray;
+}
+.blockqoute{
+    background: rgb(161, 18, 18)
+}
+.w-100{
+    width: 100%;
+    text-align: center;
+}
+.card2{
+    border: 1px dashed yellow;
+    width: 30%
+}
+.card3{
+    border: 1px dashed green;
+    width: 30%
+}
+.card4{
+    border: 1px dashed blue;
+    width: 30%
+}
+.card5{
+    border: 1px dashed violet;
+    width: 30%
+}
